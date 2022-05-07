@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-example/ascii": ["libs/ascii/src/index.ts"],
       "@nx-example/my-lib": ["libs/my-lib/src/index.ts"]
     }
   },
