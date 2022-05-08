@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "ascii": "libs/ascii",
+    "cms-strapi": "apps/cms-strapi",
     "my-lib": "libs/my-lib",
     "next-api": "apps/next-api",
     "next-example": "apps/next-example",

@@ -1,0 +1,18 @@
+{
+  "projectType": "application",
+  "sourceRoot": "apps/cms-strapi/src",
+  "targets": {
+    "serve": {
+      "executor": "@nx-extend/strapi:serve"
+    },
+    "build": {
+      "executor": "@nx-extend/strapi:build",
+      "configurations": {
+        "production": {
+          "production": true
+        }
+      }
+    }
+  },
+  "tags": []
+}
