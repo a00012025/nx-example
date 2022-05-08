@@ -1,6 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/next-api",
+  "implicitDependencies": ["ascii"],
   "targets": {
     "build": {
       "executor": "@nx-go/nx-go:build",
